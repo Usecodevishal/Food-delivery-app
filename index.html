@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="nav-compo">
+          <h2><b>D Fdelivery</b></h2>
+        </div>
+        <div class="nav-compo">
+          <div class="app-sections">
+            <div>Home</div>
+            <div>About</div>
+            <div>Shop</div>
+            <div>Food</div>
+            <div>Recipes</div>
+            <div>Contact</div>
+          </div>
+        </div>
+        <div class="nav-compo">
+          <div class="search-box">
+            <p>search your item</p>
+
+            <!-- <i class="fa-solid fa-bag-shopping"></i> -->
+          </div>
+
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+            <!--! Font Awesome Pro 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+            <path
+              d="M160 112c0-35.3 28.7-64 64-64s64 28.7 64 64v48H160V112zm-48 48H48c-26.5 0-48 21.5-48 48V416c0 53 43 96 96 96H352c53 0 96-43 96-96V208c0-26.5-21.5-48-48-48H336V112C336 50.1 285.9 0 224 0S112 50.1 112 112v48zm24 48a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm152 24a24 24 0 1 1 48 0 24 24 0 1 1 -48 0z"
+            />
+          </svg>
+          <button class="sign-btn">Sign in</button>
+        </div>
+      </nav>
+
+      <div class="header-bottom">
+        <div class="header-bottom-left">
+          <div class="header-left-content">
+            <div class="focus-logo">
+              <p>More then Faster</p>
+              <div class="radius-full">
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT46mEuzCOGurzg2InxodL7ZJfdBUrmSztlxw&usqp=CAU"
+                  alt="fresh_fry_logo"
+                  class="french-fry-logo"
+                />
+              </div>
+            </div>
+            <h1>Get Your Cuisine delivered right to <span>your door</span></h1>
+            <p>
+              Food that is delivered at the right time. The trendy food delivery
+              partner. Goood Food is what we deliver. Your hunger companion.
+            </p>
+            <button class="explore-btn">Explore Food</button>
+          </div>
+        </div>
+        <div class="header-bottom-right">
+          <div>
+            <img src="header_cartoon.svg" />
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="sec-two">
+      <div class="upper-flex">
+        <div class="upper-container">
+          <img src="more_details.svg" class="more_about" />
+          <h1 class="try-header">Try Our Sepcial Recipes</h1>
+        </div>
+        <div class="mid-nav-box">
+          <div class="mid-nav-item">Fast food</div>
+          <div class="mid-nav-item">Rice Menu</div>
+          <div class="mid-nav-item">Desserts</div>
+          <div class="mid-nav-item">Coffee</div>
+          <div class="mid-nav-item">Pizza</div>
+          <div class="mid-nav-item">See All Products</div>
+        </div>
+        <hr />
+      </div>
+      <div class="bottom-flex-box">
+        <div class="bottom-flex-item">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3etcv3Iz6c34BEpcYGxYPXX0wy0pDOJoSPg&usqp=CAU"
+            alt="fried_chicken"
+            class="fried-chicken"
+          />
+          <div class="star-rate">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+          </div>
+          <h4>Crispy Fried Chicken</h4>
+          <h5>Price <span>$ 13.00</span></h5>
+          <button type="button" class="btn btn-outline-danger btn-sm">
+            Add To Cart
+          </button>
+        </div>
+        <div class="bottom-flex-item">
+          <img
+            src="data:image/png;base64,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"
+            alt="fried_chicken"
+            class="fried-chicken"
+          />
+          <div class="star-rate">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+          </div>
+          <h4>Burger Patty Recipe</h4>
+          <h5>Price <span>$ 15.00</span></h5>
+          <button type="button" class="btn btn-outline-danger btn-sm">
+            Add To Cart
+          </button>
+        </div>
+        <div class="bottom-flex-item">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOwxlBmQc3GO7hhtxwy9g4VEd99od6DXY2Dl0rDqra7hOrxd_p7Fnurgm7i63g75Pp1A8&usqp=CAU"
+            alt="fried_chicken"
+            class="fried-chicken"
+          />
+          <div class="star-rate">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+          </div>
+          <h4>Must Try-Dishes</h4>
+          <h5>Price <span>$ 12.00</span></h5>
+          <button type="button" class="btn btn-outline-danger btn-sm">
+            Add To Cart
+          </button>
+        </div>
+        <div class="bottom-flex-item">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMz7-lOxCmKkmGgsoieb908zQ7gYjf30clww&usqp=CAU"
+            alt="fried_chicken"
+            class="fried-chicken"
+          />
+          <div class="star-rate">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+          </div>
+          <h4>Tasty French Fries</h4>
+          <h5>Price <span>$ 17.00</span></h5>
+          <button type="button" class="btn btn-outline-danger btn-sm">
+            Add To Cart
+          </button>
+        </div>
+      </div>
+    </section>
+    <section class="sec-three">
+      <div class="feedback-box">
+        <div class="feedback-people">
+          <div class="people"></div>
+        </div>
+      </div>
+      <div class="feedback-disc"></div>
+    </section>
+
+    
+   <!-- Poster-part -->
+
+
+    <section class="sec-four">
+        <div class="poster-container">
+            <img src="poster.svg" alt="app_poster" class="poster_svg"/>
+        </div>
+    </section>
+    <section class="sec-footer">
+      <div class="footer-item">
+        <h3>D Fdelivery</h3>
+        <p>
+          Retail Food delivery is a courier service in which a restaurant,
+          store, independent food delivery
+        </p>
+      </div>
+      <div class="footer-item">
+        <h5>Company</h5>
+        <div class="fields">
+          <p>About Us</p>
+          <p>Blog</p>
+          <p>All Products</p>
+          <p>Location Map</p>
+        </div>
+      </div>
+      <div class="footer-item">
+        <h5>Contact</h5>
+        <div class="fields">
+          <p>About Us</p>
+          <p>Blog</p>
+          <p>All Products</p>
+          <p>Location Map</p>
+        </div>
+      </div>
+      <div class="footer-item">
+        <h5>Support</h5>
+        <div class="fields">
+          <p>About Us</p>
+          <p>Blog</p>
+          <p>All Products</p>
+          <p>Location Map</p>
+        </div>
+      </div>
+      <div class="footer-item">
+        <h5>Contact</h5>
+        <div class="fields">
+          <p>About Us</p>
+          <p>Blog</p>
+          <p>All Products</p>
+          <p>Location Map</p>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

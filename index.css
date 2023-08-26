@@ -1,0 +1,364 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Caladea&family=Geologica:wght@600&family=Inter:wght@300;400;500;600;700;800;900&family=Noto+Sans+KR:wght@300&family=Open+Sans:wght@300&family=Poppins:wght@600&family=Roboto+Condensed&display=swap');
+
+  section{
+    width:100vw;
+  }
+  .sec-two{
+    height:1416px;
+  }
+  .sec-three{
+    height:900px;
+    display:flex;
+    flex-direction: row;
+    background-color: rgb(248,248,248);
+  }
+
+
+  .sec-four{
+    height:1023px;
+  }
+  .sec-footer{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap:2rem;
+    height:410px;
+    bottom:0;
+    background-color: rgb(250,240,240);
+  }
+header{
+    background-image: linear-gradient(rgb(254,251,251),rgb(254,244,243));
+    width:100vw;
+    height:927px;
+    
+
+}
+.navbar{
+    width:100vw;
+    height:100px;
+    border:1px solid black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+b{
+    color:rgb(249,74,61);
+}
+.nav-compo{
+    width:33%;
+    height:100%;
+    text-align: center;
+}
+.nav-compo>h2{
+    padding-top:9px;
+}
+.app-sections{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:12px;
+    padding-top:1rem;
+}
+.app-sections>div{
+    font-size:16px;
+    letter-spacing: -1px;
+    font-weight: 500;
+}
+
+.search-box{
+    width:40%;
+    height:45%;
+    border-radius:7px;
+    background-color: white;
+    
+    padding-top:12px;
+    padding-left:10px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    color:rgb(182, 180, 180);
+}
+.search-box>p{
+    font-size:15px;
+    letter-spacing: -1px;
+    font-weight: 500;
+}
+svg{
+    width:15px;
+    height:15px;
+    
+}
+.navbar>.nav-compo:last-child{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:2rem;
+    padding-bottom:1.6rem;
+}
+
+.sign-btn{
+    background-color: rgb(249,74,61);
+    width:18%;
+    height:60%;
+    border:none;
+    border-radius: 7px;
+    font-size:15px;
+    color:white;
+}
+
+.header-bottom{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    width:100%;
+    height:100%;
+}
+
+.header-bottom-left,.header-bottom-right{
+    width:50%;
+    height:100%;
+   
+    
+}
+.header-bottom-left{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-bottom-left>div{
+    width:524px;
+    height:528px;
+    
+}
+.header-bottom-left>div>h1{
+    font-size:52px;
+}
+.header-bottom-left>div>h1>span{
+    color:rgb(249,74,61);
+}
+
+.header-left-content{
+    display:flex;
+    flex-direction: column;
+    gap:1rem;
+}
+.header-left-content>p{
+    
+    font-size:20px;
+    color:rgb(105,105,123);
+}
+
+.explore-btn{
+    width:175px;
+    height:60px;
+    background-color:rgb(249,74,61); 
+    border-radius:10px;
+    border:none;
+    color:white;
+}
+
+.header-bottom-right{
+padding-top:5rem;
+
+}
+.focus-logo{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width:225px;
+    height:50px;
+    background-color: rgb(253,236,236);
+    color:rgb(249,74,61);
+    font-size:18px;
+    text-align: center;
+    border-radius:30px;
+    padding-top:0.5rem;
+}
+.radius-full{
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    background-color:white;
+    text-align: left;
+    margin-bottom:0.5rem;
+}
+
+.focus-logo>p{
+    margin-left:1rem;
+    font-weight:500;
+    margin-top:5px;
+}
+
+.french-fry-logo{
+    width:70%;
+    height:70%;
+    display:block;
+    margin-right:auto;
+    margin-left:auto;
+    margin-top:5px;
+}
+
+.upper-flex,.bottom-flex-box{
+    width:100%;
+    height:50%;
+    display:flex;
+    flex-direction: column;
+    
+}
+
+.upper-container{
+    width:80%;
+    height:80%;
+    margin:auto;
+    
+}
+.more_about{
+    width:100%;
+    height:70%;
+   
+    
+}
+.try-header{
+    text-align: center;
+    margin-top:2rem;
+    font-size:3rem;
+}
+.mid-nav-box{
+    width:100%;
+    margin:auto;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:2rem;
+    margin-bottom:-1rem;
+}
+.mid-nav-item{
+    font-size:20px;
+    font-weight:500;
+    letter-spacing: -1px;
+}
+
+.mid-nav-item:hover{
+    
+    color:red;
+    transition: all  linear 0.2s
+}
+.bottom-flex-box{
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    
+    gap:1rem;
+}
+.bottom-flex-item{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:1rem;
+    width:20%;
+    height:50%;
+    border-radius:2rem;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+}
+.bottom-flex-item:hover{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.fried-chicken{
+    width:60%;
+    height:40%;
+
+}
+.checked {
+    color: orange;
+  }
+  h5{
+    color:grey;
+  }
+  h5>span{
+    color:rgb(249,74,61);
+  }
+
+  .feedback-box{
+    width:40%;
+    height:100%;
+  }
+  .feedback-disc{
+    width:60%;
+    height:100%;
+  }
+  .feedback-people{
+    width:70%;
+    height:60%;
+    
+    margin-left:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap:1rem;
+  }
+  .people{
+    width:100%;
+    height:20%;
+    background-color:white;
+  }
+
+  .footer-item{
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+    width:15%;
+    height:70%;
+   
+  }
+
+  .footer-item:first-child{
+    
+    color:rgb(249,74,61);
+    font-weight: 900;
+  }
+
+  .footer-item:first-child>p{
+    color:grey;
+    font-weight:400;
+  }
+  .footer-item>h5{
+    color:black;
+    font-weight:600;
+  }
+
+  .fields{
+    display:flex;
+    flex-direction: column;
+    
+    color:grey;
+  }
+
+  .fields>p{
+    font-size:18px;
+    letter-spacing: -1px;
+    font-weight: 500;
+  }
+
+  .poster-container{
+    width:80%;
+    height:80%;
+    margin:auto;
+  }
+
+  .poster_svg{
+    width:100%;
+    height:100%;
+  }
+  
+
+
+
+
+
